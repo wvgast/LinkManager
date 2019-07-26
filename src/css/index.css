@@ -1,0 +1,128 @@
+.block{
+  display: block;
+  padding: 2%;
+}
+
+.title-minimal{
+  font-size: 15px;
+  text-align: center;
+}
+.title-to-page{
+  font-size: 30px;
+  text-align: center;
+}
+.input-comum{
+  border: blue solid 1px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 9px;
+}
+.text-to-icon{
+  font-size: 13px;
+  margin-left: 5px;
+  font-style: italic;
+  color: black;
+  text-align: center;
+}
+
+.btn-icon{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-icon:focus{
+  outline: none;
+}
+
+.btn-icon-plus{
+  color: var(--color-plus);
+}
+.btn-icon-plus:hover{
+  color: var(--color-plus-hover);
+}
+
+.btn-icon-save{
+  color: var(--color-save);
+}
+.btn-icon-save:hover{
+  color: var(--color-save-hover);
+}
+
+.btn-icon-remove,.btn-folder-remove{
+  color: var(--color-remove);
+}
+.btn-icon-remove:hover,.btn-folder-remove:hover{
+  color: var(--color-remove-hover);
+}
+
+.btn-icon-information{
+  color: var(--color-info);
+}
+
+.btn-icon-information:hover{
+  color: var(--color-info-hover);
+}
+
+.btn-action-folder{
+  color: var(--color-folder);
+}
+
+.btn-action-folder:hover{
+  color: var(--color-folder-hover);
+}
+
+
+.btn-action-folderSave{
+  color: var(--color-save);
+}
+
+.btn-action-folderSave:hover{
+  color: var(--color-save-hover);
+}
+
+.tools-click-folder{
+  display: none;
+  margin-top: 10%;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+.tools-item-click{
+  margin-left: 12%;
+  font-size: 13px;
+  font-style: oblique;
+  border-bottom: gray solid 1px;
+  margin-bottom: 2px;
+}
+.tools-item-click:hover{
+  cursor: pointer;
+}
+
+.listitem{
+  margin-left: 12%;
+}
+
+.btn-file-action{
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+  display: block;
+}
+
+.btn-file-remove{
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color-remove);
+  display: block;
+}
+
+.fixed-popup{
+  position: fixed;
+  background-color: white;
+  left: 100px;
+}
+
+.item:link{
+  text-decoration: none;
+}

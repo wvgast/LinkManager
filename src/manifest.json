@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Gerenciador de Link",
+    "description": "Gerenciador de link",
+    "author": "GastDev",
+    "permissions": [
+      "tabs",
+      "storage",
+      "activeTab",
+      "notifications"
+    ],
+
+    "browser_action": {
+   	 "default_title": "Link-Manager",
+   	 "default_popup": "index.html"
+   }
+
+}
